@@ -22,7 +22,9 @@ background-color: #ffffff;
 </div>
 
 <div align="center">
-    <p style="font-size: 48px; font-weight: bold;color: #d60000;">Adopt the</p>
+    <span style="font-size: 48px; font-weight: bold;color: #d60000;">Adopt the</span>
+    <br>
     <img src="https://github.com/sanguinariojoe/imp_logo/blob/main/imp_logo.svg?raw=true" width="400" alt="IMP logo">
-    <p style="font-size: 48px; font-weight: bold;color: #d60000;">IMP</p>
+    <br>
+    <span style="font-size: 48px; font-weight: bold;color: #d60000;">IMP</span>
 </div>
