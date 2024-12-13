@@ -1,2 +1,3 @@
-![IMP logo](https://github.com/sanguinariojoe/imp_logo/blob/main/imp_logo_text.png?raw=true)
-
+<div align="center">
+    <img src="https://github.com/sanguinariojoe/imp_logo/blob/main/imp_logo_test.svg?raw=true" width="85%" alt="IMP logo">
+</div>
