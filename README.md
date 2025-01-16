@@ -11,46 +11,51 @@ determined attempts of Newton's method.
 
 # Why should I adopt an IMP?
 
-There are several features that make IMP really well suited for SPH:
+The IMP offers several advantages that make it an attractive choice for SPH
+simulations.
 
 ## Unconditional stability
 
-Given its exact energy conservation, IMP is turning your SPH models
-unconditionally stable.
+One of the key benefits of the IMP method is its ability to ensure
+unconditional stability in SPH models.
+This is achieved through exact energy conservation, **which eliminates the need
+for dissipation terms.**
 
-**No need for any dissipation term! Not even viscosity!**
-
-For the time being, the energy conservation is demonstrated for compressible
-and weakly-compressible SPH incarnations.
-Some on-going theoretical progress is done on Incompressible-SPH.
+Currently, the energy conservation property of the IMP method has been
+demonstrated for compressible and Weakly-Compressible SPH formulations.
+Ongoing theoretical work is also being conducted on Incompressible SPH.
 
 ## Spectral convergence
 
-Although adopting an IMP implies solving a fixed-point problem, the numerical
-experiments show that the residues are spectrally converging.
+Although the IMP method requires solving a fixed-point problem, numerical
+experiments have shown that the residues converge spectrally.
 
-**No better scenario can be figured out!**
+**An ideal scenario for numerical simulations**
 
-Indeed, IMP is able to outperform typically used time integrators on SPH, like
-Improved-Euler or 4th order Runge-Kutta, with just 4 or 5 iterations.
+In fact, the IMP method has been shown to outperform commonly used time
+integrators in SPH, such as Improved-Euler and 4th order Runge-Kutta, with just
+4 or 5 iterations.
 
 ## Easy to implement
 
-Adopting IMP is almost free!
+Adopting the IMP method is relatively straightforward and requires minimal
+additional code.
 
 | Code | Core code lines | Other code lines |
 | --- | --- | --- |
 | [AQUAgpusph](http://canal.etsin.upm.es/aquagpusph/) | 116 | 33 |
+| [TNL-SPH](https://gitlab.com/tnl-project/tnl-sph) | 337 | 0 |
 | [DualSPHysics](https://dual.sphysics.org/) | ~500 | ~10 |
 | [PySPH](https://pysph.readthedocs.io/en/latest/) | ~750 | ~0 |
 | [GPUSPH](https://www.gpusph.org/) | ~1000 | ~50 |
 
-For the time being [AQUAgpusph](http://canal.etsin.upm.es/aquagpusph/) is the
-only SPH code which already adopted the IMP.
-Stimations are provided though for the most popular SPH implementations.
-If you are a developer and you already adopted the IMP, please
-[submit an issue](https://github.com/sanguinariojoe/adopt_the_imp/issues).
-I will happily check it and update the table.
+Currently, [AQUAgpusph](http://canal.etsin.upm.es/aquagpusph/) and
+[TNL-SPH](https://gitlab.com/tnl-project/tnl-sph) are the only IMP
+adopters.
+However, estimates are provided for other popular SPH implementations.
+If you are a developer who has adopetd an IMP, please
+[submit an issue](https://github.com/sanguinariojoe/adopt_the_imp/issues) so
+that we can update the table.
 
 # Citing
 
