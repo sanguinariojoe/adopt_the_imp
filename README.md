@@ -57,12 +57,14 @@ If you are a developer who has adopetd an IMP, please
 [submit an issue](https://github.com/sanguinariojoe/adopt_the_imp/issues) so
 that we can update the table.
 
+Some details on how it is implemented on AQUAgpusph can be found [here](https://github.com/sanguinariojoe/adopt_the_imp/wiki/AQUAgpusph)
+
 # Citing
 
 Cercos-Pita, J. L., et al. "SPH energy conservation for fluid–solid interactions." <em>Computer Methods in Applied Mechanics and Engineering</em> 317 (2017): 771-791.
 
-Cercos-Pita, J. L., et al. "The role of time integration in energy conservation in Smoothed Particle Hydrodynamics fluid dynamics simulations." <em>European Journal of Mechanics-B/Fluids</em> 97 (2023): 78-92.
+Cercos-Pita, J. L., et al. "The role of time integration in energy conservation in Smoothed Particle Hydrodynamics fluid dynamics simulations." <em>European Journal of Mechanics-B/Fluids</em> 97 (2023): 78-92. (Available on [arXiv](https://arxiv.org/abs/2210.12372))
 
-Cercos-Pita, J. L., et al. "Boundary conditions for SPH through energy conservation." <em>Computers & Fluids</em> 285 (2024): 106454.
+Cercos-Pita, J. L., et al. "Boundary conditions for SPH through energy conservation." <em>Computers & Fluids</em> 285 (2024): 106454. (Available on [arXiv](https://arxiv.org/abs/2410.08573))
 
 Merino-Alonso, P. & Violeau, D. "Energy conservation in ISPH" <em>17th ERCOFTAC SPHERIC workshop</em> (2023).
