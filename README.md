@@ -43,13 +43,13 @@ additional code.
 
 | Code | Core code lines | Other code lines |
 | --- | --- | --- |
-| [AQUAgpusph](http://canal.etsin.upm.es/aquagpusph/) | 116 | 33 |
+| [AQUAgpusph](https://aquagpusph.org/) | 116 | 33 |
 | [TNL-SPH](https://gitlab.com/tnl-project/tnl-sph) | 337 | 0 |
 | [DualSPHysics](https://dual.sphysics.org/) | ~500 | ~10 |
 | [PySPH](https://pysph.readthedocs.io/en/latest/) | ~750 | ~0 |
 | [GPUSPH](https://www.gpusph.org/) | ~1000 | ~50 |
 
-Currently, [AQUAgpusph](http://canal.etsin.upm.es/aquagpusph/) and
+Currently, [AQUAgpusph](https://aquagpusph.org/) and
 [TNL-SPH](https://gitlab.com/tnl-project/tnl-sph) are the only IMP
 adopters.
 However, estimates are provided for other popular SPH implementations.
