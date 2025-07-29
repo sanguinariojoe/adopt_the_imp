@@ -44,7 +44,7 @@ additional code.
 | Code | Core code lines | Other code lines |
 | --- | --- | --- |
 | [AQUAgpusph](https://aquagpusph.org/) | 116 | 33 |
-| [TNL-SPH](https://gitlab.com/tnl-project/tnl-sph) | 337 | 0 |
+| [TNL-SPH](https://gitlab.com/tnl-project/tnl-sph) | 314 | 0 |
 | [DualSPHysics](https://dual.sphysics.org/) | ~500 | ~10 |
 | [PySPH](https://pysph.readthedocs.io/en/latest/) | ~750 | ~0 |
 | [GPUSPH](https://www.gpusph.org/) | ~1000 | ~50 |
